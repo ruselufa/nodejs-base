@@ -1,3 +1,4 @@
 .idea
 /weather-cli/dist
 /weather-cli/node_modules
+/dashboard-api/node_modules
