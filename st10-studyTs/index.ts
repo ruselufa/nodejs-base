@@ -1,5 +1,5 @@
 import express, {Request, Response, NextFunction} from "express";
-import { userRouter } from './users/users.js'
+import { userRouter } from '../src/users/users'
 
 const port = 8000;
 const app = express();
