@@ -12,7 +12,7 @@ export class UserController extends BaseController {
     }
 
     login(req: Request, res: Response, next: NextFunction) {
-        this.ok(res, 'login')
+        this.ok(res, 'login');
     }
     register(req: Request, res: Response, next: NextFunction) {
         this.ok(res, 'register')

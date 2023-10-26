@@ -14,7 +14,7 @@ export abstract class BaseController {
     }
 
     public send<T>(res: Response, code: number,  message: T) {
-        res.type('applicatin/json')
+        res.type('application/json')
         return res.status(code).json(message);
     }
 
@@ -32,6 +32,6 @@ export abstract class BaseController {
             const handler = route.func.bind(this);
             this.router[route.method](route.path, handler)
         }
-        this._router.get('path', )
+        // this.router.get('path', )
     }
 }
