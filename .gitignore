@@ -3,3 +3,4 @@
 /weather-cli/node_modules
 /dashboard-api/node_modules
 /dashboard-api/dist
+/dashboard-api/.clinic
