@@ -4,3 +4,6 @@
 /dashboard-api/node_modules
 /dashboard-api/dist
 /dashboard-api/.clinic
+/dashboard-api/.env
+/dashboard-api/prisma/dev.db
+/dashboard-api/prisma/dev.db-journal
