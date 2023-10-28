@@ -6,8 +6,15 @@ import { User } from './user.entity';
 
 @injectable()
 export class UserService implements IUserService {
-	createUser({ email, name, password }: UserRegisterDto): User | null {
-		return;
+	async createUser({ email, name, password }: UserRegisterDto): Promise<User | null> {
+		const newUser = new User(email, name);
+		await newUser.setPassword(password);
+		// проверка что он есть?
+		// если есть - возвращаем null
+		// если нет, то создаем и возвращаем User
+		return null;
 	}
-	validateUser({}: UserLoginDto): boolean {}
+	async validateUser(dto: UserLoginDto): Promise<boolean> {
+		return true;
+	}
 }
