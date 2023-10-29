@@ -7,3 +7,7 @@
 /dashboard-api/.env
 /dashboard-api/prisma/dev.db
 /dashboard-api/prisma/dev.db-journal
+/dashboard-api/coverage
+../.DS_Store
+./.DS_Store
+.DS_Store
